@@ -59,5 +59,9 @@ public class SimpleCity {
 	public String toString() {
 		return nome;
 	}
+
+	public void aumentaCosto() {
+		this.costo = this.costo+100;
+	}
 	
 }
